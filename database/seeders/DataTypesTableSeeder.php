@@ -18,7 +18,7 @@ class DataTypesTableSeeder extends Seeder
                 'name'                  => 'accounts',
                 'display_name_singular' => __('joy-voyager-bread-account::seeders.data_types.account.singular'),
                 'display_name_plural'   => __('joy-voyager-bread-account::seeders.data_types.account.plural'),
-                'icon'                  => 'voyager-bread',
+                'icon'                  => 'voyager-bread voyager-bread-account voyager-people',
                 'model_name'            => 'Joy\\VoyagerBreadAccount\\Models\\Account',
                 // 'policy_name'           => 'Joy\\VoyagerBreadAccount\\Policies\\AccountPolicy',
                 // 'controller'            => 'Joy\\VoyagerBreadAccount\\Http\\Controllers\\VoyagerBreadAccountController',
